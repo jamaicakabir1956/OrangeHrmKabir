@@ -29,7 +29,7 @@ public class LoginSteps {
 	
 	@Given("^user open web browser and navigate to HRM login screen a$")
 	public void user_open_web_browser_and_navigate_to_HRM_login_screen_a() throws Throwable {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 

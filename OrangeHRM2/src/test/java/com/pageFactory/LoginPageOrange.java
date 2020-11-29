@@ -9,11 +9,11 @@ import org.openqa.selenium.support.How;
 public class LoginPageOrange {
 	
 	
-	@FindBy (how= How.XPATH, using = "//*[@name='txtUsername']")
-	private WebElement username;
-	
 	@FindBy (how= How.XPATH, using = "//*[@name='txtPassword']")
 	private WebElement password;
+
+	@FindBy (how= How.XPATH, using = "//*[@name='txtUsername']")
+	private WebElement username;
 
 	public WebElement getUsername() {
 		return username;
@@ -30,13 +30,13 @@ public class LoginPageOrange {
 	public void setPassword(WebElement password) {
 		this.password = password;
 	}
-
-	
-
-	
-	
-	
-	
-	
-
 }
+	
+
+	
+	
+	
+	
+	
+
+
